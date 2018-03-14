@@ -9,6 +9,3 @@ daje([[[[[[0]]]]]],b,c,z).
 ma(0,Kto, Co):-ma(Kto,Co).
 ma([Kiedy],Kto, Co):-daje(Kiedy,_,Kto,Co).
 ma([Kiedy],Kto, Co):-ma(Kiedy,Kto,Co),\+ (daje(Kiedy,Kto,_,Co)).
-leq([X],[Y]):-
-  X=0;
-  leq(X,Y).
